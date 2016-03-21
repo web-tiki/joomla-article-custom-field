@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="plugin" group="content" method="upgrade">
+	<name>plg_content_acf</name>
+	<author>web-tiki</author>
+	<authorEmail>contact@web-tiki.com</authorEmail>
+	<authorUrl>http://web-tiki.com</authorUrl>
+	<copyright>Copyright (c) 2016 - web-tiki</copyright>
+	<license>GNU General Public License version 3, or later</license>
+	<creationDate>21/03/2016</creationDate>
+	<version>1.0.0</version>
+	<description>ACF Description</description>
+
+	<files>
+		<filename plugin="acf">acf.php</filename>
+		<folder>forms</folder>
+	</files>
+
+	<languages>
+        <language tag="en-GB">en-GB.plg_content_acf.ini</language>
+        <language tag="en-GB">en-GB.plg_content_acf.sys.ini</language>
+    </languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="category" type="category" extension="com_content" label="Select a category" />
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>

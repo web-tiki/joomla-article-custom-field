@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fields name="attribs">
+		<fieldset name="acf">
+			<field
+				type="filelist"
+				name="path"
+				label="Document"
+				directory="images/documents"
+				filter="\.pdf$"
+				hide_default="true"
+				validate="options"
+				/>
+			<field
+				name="anchor"
+				type="text"
+				label="Anchor"
+				description="Description here"
+				class="required"
+				/>
+		</fieldset>
+	</fields>
+</form>
