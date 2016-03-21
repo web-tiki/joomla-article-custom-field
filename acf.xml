@@ -9,11 +9,17 @@
 	<creationDate>21/03/2016</creationDate>
 	<version>1.0.0</version>
 	<description>ACF Description</description>
+
 	<files>
 		<filename plugin="acf">acf.php</filename>
 		<folder>forms</folder>
 	</files>
-	
+
+	<languages>
+        <language tag="en-GB">en-GB.plg_content_acf.ini</language>
+        <language tag="en-GB">en-GB.plg_content_acf.sys.ini</language>
+    </languages>
+
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
@@ -21,5 +27,5 @@
 			</fieldset>
 		</fields>
 	</config>
-	
+
 </extension>
