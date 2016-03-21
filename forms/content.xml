@@ -10,7 +10,7 @@
 				class="acf_warningMessage"
 				/>
 			<field
-				name="anchor"
+				name="custom_field1"
 				type="text"
 				label="PLG_CONTENT_ACF_CUSTOM_FIELD1_LABEL"
 				description="PLG_CONTENT_ACF_CUSTOM_FIELD1_DESC"
