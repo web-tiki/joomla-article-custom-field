@@ -16,9 +16,9 @@
 	</files>
 
 	<languages>
-        <language tag="en-GB">en-GB.plg_content_acf.ini</language>
-        <language tag="en-GB">en-GB.plg_content_acf.sys.ini</language>
-    </languages>
+		<language tag="en-GB">en-GB.plg_content_acf.ini</language>
+		<language tag="en-GB">en-GB.plg_content_acf.sys.ini</language>
+	</languages>
 
 	<config>
 		<fields name="params">
