@@ -2,30 +2,27 @@
 <extension version="3.4" type="plugin" group="content" method="upgrade">
 	<name>plg_content_acf</name>
 	<author>web-tiki</author>
+	<creationDate>March 2016</creationDate>
+	<copyright>Copyright (C) 2016 web-tiki.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>contact@web-tiki.com</authorEmail>
 	<authorUrl>http://web-tiki.com</authorUrl>
-	<copyright>Copyright (c) 2016 - web-tiki</copyright>
-	<license>GNU General Public License version 3, or later</license>
-	<creationDate>21/03/2016</creationDate>
 	<version>1.0.0</version>
-	<description>ACF Description</description>
-
+	<description>This plugin adds a custom field to articles. Enable it and select a category. More info <a href="https://github.com/web-tiki/joomla-article-custom-field">here</a>.</description>
 	<files>
 		<filename plugin="acf">acf.php</filename>
+		<filename>index.html</filename>
 		<folder>forms</folder>
 	</files>
-
 	<languages>
-        <language tag="en-GB">en-GB.plg_content_acf.ini</language>
-        <language tag="en-GB">en-GB.plg_content_acf.sys.ini</language>
-    </languages>
-
+		<language tag="en-GB">en-GB.plg_content_acf.ini</language>
+		<language tag="en-GB">en-GB.plg_content_acf.sys.ini</language>
+	</languages>
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
-				<field name="category" type="category" extension="com_content" label="Select a category" />
+				<field name="category" type="category" extension="com_content" label="PLG_CONTENT_ACF_OPTION_CATEGORY" />
 			</fieldset>
 		</fields>
 	</config>
-
 </extension>

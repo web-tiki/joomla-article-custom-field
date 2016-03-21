@@ -3,20 +3,10 @@
 	<fields name="attribs">
 		<fieldset name="acf">
 			<field
-				type="filelist"
-				name="path"
-				label="Document"
-				directory="images/documents"
-				filter="\.pdf$"
-				hide_default="true"
-				validate="options"
-				/>
-			<field
 				name="anchor"
 				type="text"
-				label="Anchor"
-				description="Description here"
-				class="required"
+				label="PLG_CONTENT_ACF_CUSTOM_FIEL1_LABEL"
+				description="PLG_CONTENT_ACF_CUSTOM_FIEL1_DESC"
 				/>
 		</fieldset>
 	</fields>
