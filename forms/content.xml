@@ -3,10 +3,17 @@
 	<fields name="attribs">
 		<fieldset name="acf">
 			<field
+				name="warningMessage"
+				type="note"
+				description=""
+				label="PLG_CONTENT_ACF_WARNING_MESSAGE"
+				class="acf_warningMessage"
+				/>
+			<field
 				name="anchor"
 				type="text"
-				label="PLG_CONTENT_ACF_CUSTOM_FIEL1_LABEL"
-				description="PLG_CONTENT_ACF_CUSTOM_FIEL1_DESC"
+				label="PLG_CONTENT_ACF_CUSTOM_FIELD1_LABEL"
+				description="PLG_CONTENT_ACF_CUSTOM_FIELD1_DESC"
 				/>
 		</fieldset>
 	</fields>
