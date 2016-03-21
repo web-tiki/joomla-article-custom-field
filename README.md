@@ -1,4 +1,4 @@
-# joomla-article-custom-field
+# Joomla article custom fields
 Joomla plugin to add a custom field to a selected category.
 This plugin was created after [this question](http://joomla.stackexchange.com/questions/15764/article-custom-fields-for-one-category/15766?noredirect=1#comment19963_15766) on joomla.stackexchange.com.
 
