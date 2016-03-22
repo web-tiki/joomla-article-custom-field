@@ -8,7 +8,7 @@
 	<authorEmail>contact@web-tiki.com</authorEmail>
 	<authorUrl>http://web-tiki.com</authorUrl>
 	<version>1.0.0</version>
-	<description>This plugin adds a custom field to articles. Enable it and select a category. More info <a href="https://github.com/web-tiki/joomla-article-custom-field">here</a>.</description>
+	<description>This plugin adds a custom field to articles. Enable it and select a category. More info &lt;a target="_blank" href="https://github.com/web-tiki/joomla-article-custom-field"&gt;here&lt;/a&gt;.</description>
 	<files>
 		<filename plugin="acf">acf.php</filename>
 		<filename>index.html</filename>
